@@ -1,0 +1,19 @@
+# Web scraping and parsing
+cloudscraper>=1.2.71
+beautifulsoup4>=4.12.2
+
+# RTL and Arabic text support
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+wcwidth>=0.2.8
+
+# Terminal UI
+rich>=13.5.3
+inquirer>=3.1.3
+colorama>=0.4.6
+
+# Video extraction (used via subprocess)
+yt-dlp>=2023.10.13
+
+# Optional: platform-specific keyboard input (not needed on Windows)
+# getch>=1.0; sys_platform != 'win32'
